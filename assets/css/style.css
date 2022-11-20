@@ -123,7 +123,7 @@ a:hover {
 }
 
 .color-b {
-  color: #b90985;
+  color: #220a8d;
 }
 
 .color-d {
@@ -417,7 +417,7 @@ a:hover {
 }
 
 .carousel-pagination .swiper-pagination-bullet-active {
-  background-color: #b90985;
+  background-color: #220a8d;
   width: 36px;
 }
 
@@ -575,8 +575,8 @@ a:hover {
 }
 
 .btn.btn-a:hover {
-  background-color: #b90985;
-  color: #000000;
+  background-color: #220a8d;
+  color: #ffffff;
 }
 
 .btn.btn-b {
@@ -706,7 +706,7 @@ a:hover {
 }
 
 .navbar-default.navbar-trans .nav-link:before {
-  background-color: #b90985;
+  background-color: #220a8d;
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
@@ -731,7 +731,7 @@ a:hover {
 }
 
 .navbar-default.navbar-reduce .nav-link:before {
-  background-color: #b90985;
+  background-color: #220a8d;
 }
 
 .navbar-default.navbar-reduce .nav-link:hover {
@@ -982,14 +982,14 @@ a:hover {
 .intro .swiper-pagination .swiper-pagination-bullet {
   width: 18px;
   height: 10px;
-  background-color: #ffffff;
+  background-color: #220a8d;
   border-radius: 0;
   opacity: 1;
   transition: 0.3s;
 }
 
 .intro .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b90985;
+  background-color: #ffffff;
   width: 36px;
 }
 
@@ -1023,7 +1023,7 @@ a:hover {
 .intro .intro-body .price-a {
   color: #ffffff;
   padding: 1rem 1.5rem;
-  border: 2px solid #b90985;
+  border: 2px solid #ffffff;
   border-radius: 50px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -1058,8 +1058,8 @@ a:hover {
 
 .intro .intro-title {
   color: #ffffff;
-  font-weight: 700;
-  font-size: 2.8rem;
+  font-weight: 400;
+  font-size: 1.8rem;
   text-transform: uppercase;
 }
 
@@ -1095,6 +1095,7 @@ a:hover {
 .intro .intro-subtitle.intro-price {
   padding-top: 1rem;
   font-size: 1.2rem;
+  font-weight: bold;
 }
 
 @media (min-width: 576px) {
@@ -1132,7 +1133,7 @@ a:hover {
 }
 
 .intro-single .title-single-box {
-  border-left: 3px solid #b90985;
+  border-left: 3px solid #220a8d;
 }
 
 .intro-single .title-single-box .title-single {
@@ -1355,7 +1356,7 @@ a:hover {
 .price-a {
   color: #ffffff;
   padding: 0.6rem 0.8rem;
-  border: 2px solid #b90985;
+  border: 2px solid #ffffff;
   border-radius: 50px;
   text-transform: uppercase;
   letter-spacing: 0.03em;

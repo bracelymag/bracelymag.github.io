@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>StudentsIN</title>
+    
+    <!-- Icons -->
+    <link href="assets/img/favicon.png" rel="icon">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Application-Form.css">
+    <link rel="stylesheet" href="assets/css/best-carousel-slide.css">
+  
+
+    <link rel="stylesheet" href="assets/css/Dark-NavBar.css">
+    <link rel="stylesheet" href="assets/css/dh-row-titile-text-image-right-1.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button" style="height:80px;background-color:#37434d;color:#ffffff;">
+            <div class="container-fluid"><a class="navbar-brand" href="#"><i class="fa fa-globe"></i>&nbsp;StudentsIN</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" style="color:#ffffff;" href="index.html"><i class="fa fa-home"></i>&nbsp;Home</a></li>
+                        <li class="nav-item"><a class="nav-link " style="color:#ffffff;" href="propertyGrid.html"><i class="fa fa-star-o"></i>&nbsp;Properties</a></li>
+                        <li class="nav-item"><a class="nav-link " style="color:#ffffff;" href="about.html"><i class="fa fa-user-circle-o"></i>&nbsp;About</a></li>
+                        <li class="nav-item"><a class="nav-link " style="color:#ffffff;" href="contact.html"><i class="fa fa-wpexplorer"></i>&nbsp;Contacts</a></li>
+                        <li class="nav-item"><a class="nav-link " style="color:#ffffff;" href="login.html"><i class="fa fa-sign-in"></i>&nbsp;Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section id="carousel">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <div class="bg-light border rounded border-light pulse animated hero-nature carousel-hero jumbotron py-5 px-4">
+                        <h1 class="hero-title">Acommodation for Students</h1>
+                        <p class="hero-subtitle">The best place to find a nice appartment to rent in the country.</p>
+                        <p><a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-light border rounded border-light pulse animated hero-photography carousel-hero jumbotron py-5 px-4">
+                        <h1 class="hero-title">Acommodation for Students</h1>
+                        <p class="hero-subtitle">Home to over 2000 students in the country.</p>
+                        <p><a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="bg-light border rounded border-light pulse animated hero-technology carousel-hero jumbotron py-5 px-4">
+                        <h1 class="hero-title">Acommodation for Students</h1>
+                        <p class="hero-subtitle">Book a place with us now.</p>
+                        <p><a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span></a>
+                    <a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carousel-1" data-bs-slide-to="0"></li>
+                <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carousel-1" data-bs-slide-to="2" class="active"></li>
+            </ol>
+        </div>
+    </section>
+    <section>
+        <h1 class="text-center text-capitalize">Search Property</h1>
+        <div class="container">
+            <form id="formSearchProperty">
+                <div class="form-group mb-3">
+                    <div class="row">
+                        <div class="col">
+                            <p><strong>Type</strong>&nbsp;<span class="text-danger">*</span></p>
+                            <select class="form-control form-select form-control-a" id="Type">
+                                <option>All Type</option>
+                                <option>Bungalow</option>
+                                <option>Garden Flat</option>
+                                <option>Flat</option>
+                              </select>
+                              
+                        </div>
+                        <div class="col">
+                            <p><strong>Location</strong>&nbsp;<span class="text-danger">*</span></p>
+                            <select class="form-control form-select form-control-a" id="city">
+                                <option>Harare Central</option>
+                                <option>Avondale West</option>
+                                <option>Westgate</option>
+                                <option>Mount Pleasant</option>
+                                <option>Milton Park</option>
+                                <option>Harare CBD</option>
+                                <option>Belvedere</option>
+                              </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group mb-3">
+                    <div class="row">
+                        <div class="col">
+                            <p><strong>Bedrooms</strong>&nbsp;<span class="text-danger">*</span></p>
+                            <select class="form-control form-select form-control-a" id="bedrooms">
+                                <option>Any</option>
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                              </select>
+                        </div>
+                        <div class="col">
+                            <p><strong>Garages</strong>&nbsp;<span class="text-danger">*</span></p>
+                            <select class="form-control form-select form-control-a" id="garages">
+                                <option>Any</option>
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                                <option>04</option>
+                              </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group mb-3">
+                    <div class="row">
+                        <div class="col">
+                            <p><strong>Minimum Price</strong>&nbsp;<span class="text-danger">*</span></p>
+                            <select class="form-control form-select form-control-a" id="price">
+                                <option>Unlimited</option>
+                                <option>$60</option>
+                                <option>$120</option>
+                                <option>$200</option>
+                                <option>$300</option>
+                              </select>
+                        </div>
+                        <div class="col">
+                            <p><strong>Maximum Price</strong>&nbsp;<span class="text-danger">*</span></p>
+                            <select class="form-control form-select form-control-a" id="price">
+                                <option>Unlimited</option>
+                                <option>$60</option>
+                                <option>$120</option>
+                                <option>$200</option>
+                                <option>$300</option>
+                              </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="justify-content-center d-flex form-group mb-3">
+                    <div id="submit-btn">
+                        <div class="row"><button class="btn btn-primary btn-light m-0 rounded-pill px-4" type="button" style="min-width: 500px;" action method="POST" target="hidden_iframe">Search</button></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col">
+            <h3 id="fail" class="text-center text-danger d-none"><br>Form not Submitted&nbsp;<a href="propertyGrid.html">Try Again</a><br><br></h3>
+            <h3 id="success-1" class="text-center text-success d-none"><br>Form Submitted Successfully&nbsp;<a href="propertyGrid.html">Send Another Response</a><br><br></h3>
+        </div>
+    </section>
+
+    <section class="bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-6" style="padding: 0px;background: url(assets/img/house6.jpg) center / cover no-repeat;">
+                    <p><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <h1 class="text-dark" style="padding-top: 20px;padding-left: 15px;padding-right: 15px;">Your Place</h1>
+                    <hr>
+                    <p  style="padding-left: 15px;padding-right: 15px;">
+                        Book your perfect place from our vast selection of listings.
+                    </p>
+                    <p  style="padding-left: 15px;padding-right: 15px;">
+                        Find the best student homes near the major universities in the country.
+                    </p>
+                    <p  style="padding-left: 15px;padding-right: 15px;">
+                        Over 10 universities accomodation available.
+                    </p>
+                    <div style="text-align:center">
+                        <button class="btn btn-dark btn-lg" type="button" style="margin-bottom: 21px;">Learn more </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <h1 class="text-dark" style="padding-top: 20px;padding-left: 15px;padding-right: 15px;">Flexible Terms</h1>
+                    <hr>
+                    <p  style="padding-left: 15px;padding-right: 15px;">
+                        Time is money. Save both when you book with us.
+                    </p>
+                    <p  style="padding-left: 15px;padding-right: 15px;">
+                        What you see is what you get, our promise.
+                    </p>
+                    <p  style="padding-left: 15px;padding-right: 15px;">
+                        Find a lower price and we'll match it. No doubts.
+                    </p>
+                    <div style="text-align:center">
+                        <button class="btn btn-dark btn-lg" type="button" style="margin-bottom: 21px;">Learn more </button>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6" style="padding: 0px;background: url(assets/img/house7.jpg) center / cover no-repeat;">
+                    <p><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-6" style="padding: 0px;background: url(assets/img/house8.jpg) center / cover no-repeat;">
+                    <p><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <h1 class="text-dark" style="padding-top: 20px;padding-left: 15px;padding-right: 15px;">Your Rules</h1>
+                    <hr>
+                    <p  style="padding-left: 15px;padding-right: 15px;">
+                        We'll be there for you anytime. Just ask.
+                    </p>
+                    <p  style="padding-left: 15px;padding-right: 15px;">
+                        StudentsIN helps you find a room or entire home on your terms.
+                    </p>
+                    <p  style="padding-left: 15px;padding-right: 15px;">
+                        Everything is documentated and verified.
+                    </p>
+                    <div style="text-align:center">
+                        <button class="btn btn-dark btn-lg" type="button" style="margin-bottom: 21px;">Learn more </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1">Book in 3 Easy Steps</h1>
+                <hr>
+                <h3>Discover & Finalize your place</h3>
+                <p class="lead">
+                    Chose from a wide range of listings from our website
+                </p>
+                <h3>Get your paperwork done</h3>
+                <p class="lead">
+                    Days of lengthy paperwork are gone. Let us do the boring work for you.
+                </p>
+                <h3>Your accomodation is booked</h3>
+                <p class="lead">
+                    Now you can relax, pack your bags, and begin your new journey.
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                    <button class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" type="button">Book with us</button>
+                    <button class="btn btn-outline-secondary btn-lg px-4" type="button">View Properties</button></div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg"><img class="rounded-lg-3" src="assets/img/favicon.png" width="720"></div>
+        </div>
+    </div>
+
+    <footer class="footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>The Company</h3>
+                    <ul>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Affiliate</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Our Offices</h3>
+                    <ul>
+                        <li><a href="#">Harare</a></li>
+                        <li><a href="#">Bulawayo</a></li>
+                        <li><a href="#">Chinhoyi</a></li>
+                        <li><a href="#">Gweru</a></li>
+                        <li><a href="#">Masvingo</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>StudentsIN</h3>
+                    <p>Striving for a better accomodation towards students in Zimbabwe.</p>
+                    <br>
+                    <p><strong>Phone. </strong><span class="color-text-a"> +263 715 455 487</span></p>
+                    <p><strong>Email. </strong><span class="color-text-a"> studentsinzim@gmail.com</span></p>
+                    
+                </div>
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a>
+                    <a href="#"><i class="icon ion-social-twitter"></i></a>
+                    <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                    <a href="#"><i class="icon ion-social-instagram"></i></a></div>
+            </div>
+            <p class="copyright">StudentsIN © 2022</p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/Application-Form.js"></script>
+</body>
+
+</html>

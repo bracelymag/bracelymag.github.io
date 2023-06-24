@@ -1568,7 +1568,7 @@ img {
 }
 
 .aa-latest-blog-single .aa-blog-img img {
-  height: 250px;
+  max-height: 250px;
   -moz-transform: scale(1);
   -o-transform: scale(1);
   -ms-transform: scale(1);
@@ -1579,7 +1579,7 @@ img {
   -ms-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-  width: 100%;
+  max-width: 100%;
 }
 .aa-latest-blog-single .aa-blog-img .aa-blog-img-caption {
   -webkit-transition: all 0.5s ease 0s;
